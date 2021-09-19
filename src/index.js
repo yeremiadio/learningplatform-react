@@ -12,13 +12,6 @@ const theme = createTheme({
     secondary: red,
   },
   components: {
-    MuiTextField: {
-      styleOverrides: {
-        root: {
-          fontFamily: "Roboto, cursive",
-        },
-      },
-    },
     MuiButton: {
       variants: [
         {

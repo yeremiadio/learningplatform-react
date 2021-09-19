@@ -1,8 +1,10 @@
 import React from "react";
-import { Button, Typography } from "@mui/material";
+import { Button, TextField, Typography } from "@mui/material";
+import Navbar from "./Navbar";
 const StyleGuide = () => {
   return (
     <div>
+      <Navbar />
       <Typography variant="h1">h1</Typography>
       <Typography variant="h2">h2</Typography>
       <Typography variant="h3">h3</Typography>
@@ -12,6 +14,11 @@ const StyleGuide = () => {
       <Typography variant="subtitle1">subtitle1</Typography>
       <Typography variant="body1">body1</Typography>
       <Typography variant="caption">caption</Typography>
+      <TextField
+        variant="outlined"
+        label="Email"
+        placeholder="Masukkan email"
+      />
       <Button variant="text" color="error">
         success
       </Button>
